@@ -4,8 +4,8 @@ LABEL maintainer "Mark <willietgwb@gmail.com>"
 
 COPY start.sh /start
 # Add and install mono
-ENV TSHOCK_VERSION=4.5.5
-ENV TERRARIA_VERSION=1.4.2.3
+ENV TSHOCK_VERSION=4.5.15
+ENV TERRARIA_VERSION=1.4.3.5
 
 RUN mkdir /world /config /logs /plugins /tshock && \
         cd /tshock && \
